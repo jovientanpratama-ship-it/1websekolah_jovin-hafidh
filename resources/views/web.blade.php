@@ -6,10 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Website SMK PGRI WLINGI</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-        crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
 <body>
@@ -18,11 +16,8 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand d-flex align-items-center" href="#">
-            <img src="https://e7.pngegg.com/pngimages/518/469/png-clipart-smk-pgri-wlingi-logo-vocational-school-islami-text-logo-thumbnail.png"
-                 alt="Logo SMK PGRI Wlingi"
-                 width="70"
-                 height="70"
-                 class="me-2">
+                <img src="https://e7.pngegg.com/pngimages/518/469/png-clipart-smk-pgri-wlingi-logo-vocational-school-islami-text-logo-thumbnail.png"
+                    alt="Logo SMK PGRI Wlingi" width="70" height="70" class="me-2">
 
                 <div>
                     <div>SMK PGRI WLINGI</div>
@@ -31,8 +26,8 @@
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -43,45 +38,53 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">Profil</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Profil</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">Akademik</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Akademik</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">Kesiswaan</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Kesiswaan</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">Berita</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Berita</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
@@ -96,8 +99,7 @@
                 </ul>
 
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search"
-                        aria-label="Search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
             </div>
@@ -107,13 +109,12 @@
     {{-- Carousel --}}
     <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="0" class="active" aria-current="true"
-                aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
         </div>
 
         <div class="carousel-inner">
@@ -121,8 +122,7 @@
                 <img src="https://memorandum.disway.id/upload/b9b6c442749639f74391fc39b1c8dac2.jpg"
                     class="d-block w-100" alt="Slide 1" height="500">
 
-                <div class="position-absolute start-0 bottom-0 m-3 text-white p-2"
-                    style="background-color: grey">
+                <div class="position-absolute start-0 bottom-0 m-3 text-white p-2" style="background-color: grey">
                     <h5>Selamat datang di website Sekolah</h5>
                     <p>Bersama kita wujudkan generasi yang cerdas, berakhlak dan berprestasi</p>
                 </div>
@@ -139,14 +139,14 @@
             </div>
         </div>
 
-        <button class="carousel-control-prev" type="button"
-            data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
 
-        <button class="carousel-control-next" type="button"
-            data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
@@ -161,8 +161,7 @@
                         <h2>Sambutan Kepala Sekolah</h2>
 
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoskPAJLrYJq_V-JlfR7utKyr2symUv_mVcXRMYSd5qJLn3VLjndpxucI&s=10"
-                            class="img-fluid rounded float-start me-3 mb-2"
-                            style="width: 250px; height: 250px;"
+                            class="img-fluid rounded float-start me-3 mb-2" style="width: 250px; height: 250px;"
                             alt="Kepala Sekolah">
 
                         <h4>Assalamualaikum Wr.Wb</h4>
@@ -208,7 +207,9 @@
                                         <div class="card-body">
                                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4YoBRZ_cXYjMRUNCo12MH1Kzjq58VwwmCFX86QwrRnOwvbAwnCFa5-88b&s=10"
                                                 alt="" width="150">
-                                           SMKS PGRI Wlingi merupakan sekolah menengah kejuruan yang menjadi tempat bagi siswa untuk mengembangkan pengetahuan, keterampilan, dan kompetensi sesuai bidang keahlian yang dipelajari.
+                                            SMKS PGRI Wlingi merupakan sekolah menengah kejuruan yang menjadi tempat
+                                            bagi siswa untuk mengembangkan pengetahuan, keterampilan, dan kompetensi
+                                            sesuai bidang keahlian yang dipelajari.
                                         </div>
                                     </div>
                                 </div>
@@ -218,7 +219,9 @@
                                         <div class="card-body">
                                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4coe3c5WPJjUGG40-xYg9n305eC7Hi_eAUgiUmegyPq4C4HKNOxr0afk&s=10"
                                                 alt="" width="150">
-                                            SMKS PGRI Wlingi merupakan sekolah menengah kejuruan yang menjadi tempat bagi siswa untuk mengembangkan pengetahuan, keterampilan, dan kompetensi sesuai bidang keahlian yang dipelajari.
+                                            SMKS PGRI Wlingi merupakan sekolah menengah kejuruan yang menjadi tempat
+                                            bagi siswa untuk mengembangkan pengetahuan, keterampilan, dan kompetensi
+                                            sesuai bidang keahlian yang dipelajari.
                                         </div>
                                     </div>
                                 </div>
@@ -228,7 +231,9 @@
                                         <div class="card-body">
                                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOqjT2yQoC8QDS6vWCr_2B5Q6aojtYYxwoo-9xr5LuUyXITrfMT0f-NPw&s=10"
                                                 alt="" width="150">
-                                            SMKS PGRI Wlingi merupakan sekolah menengah kejuruan yang menjadi tempat bagi siswa untuk mengembangkan pengetahuan, keterampilan, dan kompetensi sesuai bidang keahlian yang dipelajari.
+                                            SMKS PGRI Wlingi merupakan sekolah menengah kejuruan yang menjadi tempat
+                                            bagi siswa untuk mengembangkan pengetahuan, keterampilan, dan kompetensi
+                                            sesuai bidang keahlian yang dipelajari.
                                         </div>
                                     </div>
                                 </div>
@@ -238,7 +243,9 @@
                                         <div class="card-body">
                                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNuOJQA-VdKIRSAmdyLgamaBg3BSJnLGljiEGr8tpgMCcE6V2D4qEV3z4v&s=10"
                                                 alt="" width="150">
-                                            SMKS PGRI Wlingi merupakan sekolah menengah kejuruan yang menjadi tempat bagi siswa untuk mengembangkan pengetahuan, keterampilan, dan kompetensi sesuai bidang keahlian yang dipelajari.
+                                            SMKS PGRI Wlingi merupakan sekolah menengah kejuruan yang menjadi tempat
+                                            bagi siswa untuk mengembangkan pengetahuan, keterampilan, dan kompetensi
+                                            sesuai bidang keahlian yang dipelajari.
                                         </div>
                                     </div>
                                 </div>
@@ -264,7 +271,8 @@
                             <li class="list-group-item">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                     fill="currentColor" class="bi bi-file-earmark" viewBox="0 0 16 16">
-                                    <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/>
+                                    <path
+                                        d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z" />
                                 </svg>
                                 Pendaftaran Peserta Didik<br>
                                 baru<br>
@@ -274,7 +282,8 @@
                             <li class="list-group-item">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                     fill="currentColor" class="bi bi-file-earmark" viewBox="0 0 16 16">
-                                    <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/>
+                                    <path
+                                        d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z" />
                                 </svg>
                                 Jadwal ujian semester genap tahun ajaran 2024/2025
                             </li>
@@ -282,7 +291,8 @@
                             <li class="list-group-item">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                     fill="currentColor" class="bi bi-file-earmark" viewBox="0 0 16 16">
-                                    <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/>
+                                    <path
+                                        d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z" />
                                 </svg>
                                 Informasi Libur Idul Fitri 1444 H
                             </li>
@@ -290,7 +300,8 @@
                             <li class="list-group-item">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                     fill="currentColor" class="bi bi-file-earmark" viewBox="0 0 16 16">
-                                    <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/>
+                                    <path
+                                        d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z" />
                                 </svg>
                                 Pengumuman kelulusan kelas XII
                             </li>
@@ -298,7 +309,7 @@
                             <li class="list-group-item">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                     fill="currentColor" class="bi bi-file-earmark" viewBox="0 0 16 16">
-                                    <path d="M14 4.5V14a2 2 0 0 1-2 2H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
+                                    <path d="M14 4.5V14a2 2 0 0 1-2 2H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z" />
                                 </svg>
                                 Kegiatan Bakti Sosial Sekolah
                             </li>
@@ -316,22 +327,22 @@
         </div>
     </div>
 
-{{-- Footer --}}
     {{-- Footer --}}
-<footer class="fixed-bottom text-white py-3"
-        style="background-color: #212529;">
-    <div class="container-fluid d-flex justify-content-between align-items-center flex-wrap">
-        <a>
-            Web Personal &copy; 2026
-        </a>
-        <a>
-            Dikembangkan oleh @ Jovien Tan Pratama
-        </a>
-    </div>
-</footer>
+    {{-- Footer --}}
+    <footer class="fixed-bottom text-white py-3" style="background-color: #212529;">
+        <div class="container-fluid d-flex justify-content-between align-items-center flex-wrap">
+            <a>
+                Web Personal &copy; 2026
+            </a>
+            <a>
+                Dikembangkan oleh @ Jovien Tan Pratama
+            </a>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+    </script>
 
 </body>
+
 </html>
